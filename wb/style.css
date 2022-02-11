@@ -42,3 +42,29 @@ h2{
     background-position: right;
     background-repeat: no-repeat;
 }
+.single-exp{
+    padding: 5px 15px 15px 15px;
+    box-shadow: 15px 15px 45px gray;
+    border-radius: 5px;
+    height: 70%;
+}
+.exp-area{
+    background-image: url("images/exp-bg.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 75px;
+}
+#s1-stack{
+    border-left: 6px solid;
+    border-image: linear-gradient(lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#s2-stack{
+    border-left: 6px solid;
+    border-image: linear-gradient(blue, rgb(71, 203, 255));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
+}
